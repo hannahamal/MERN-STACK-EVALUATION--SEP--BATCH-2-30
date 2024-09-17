@@ -1,0 +1,39 @@
+.body{
+    height: 1000px;
+    width: 300px;
+    background-color: black;
+    margin-top: 2cm;
+    /* position: relative;
+    top:1cm; */
+}
+    
+.child1{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    /* top: 1cm; */
+    
+}
+.child2{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(187, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: sticky;
+    top:1cm;
+
+}
+.child3{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(206, 55, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

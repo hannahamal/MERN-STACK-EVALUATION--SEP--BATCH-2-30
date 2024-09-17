@@ -1,0 +1,35 @@
+
+.center{
+    margin-left: 20cm;
+    display: flex;
+    flex-direction: column;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1cm;
+    color: white;
+    font-size: 20px;
+
+}
+.p1{
+    color: red;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+input{
+    width: 10cm;
+    height: 1cm;
+}
+button{
+    width: 5cm;
+    height: 1cm;
+}
+p{
+    font-size: 20px;
+}

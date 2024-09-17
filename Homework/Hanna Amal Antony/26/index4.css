@@ -1,0 +1,119 @@
+.div1{
+    background-color: black;
+    width:600px;
+    height: 800px;
+    display: flex;
+    
+    
+   
+}
+button{
+    width:500px ;
+    height: 60px;
+    color:white;
+    background-color: rgb(14, 14, 71);
+    margin-left: 200px;
+    display: flex;
+    margin-top: 25px;
+    font-size: 15px;
+    border-start-start-radius: 0.5cm;
+    border-bottom-left-radius: 0.5cm;
+    align-items: center;
+    
+    
+}
+.button{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    
+}
+.div2{
+    height: 800px;
+    width: 1000px;
+    background-color: rgb(31, 31, 31);
+    
+}
+.p1{
+    color: white;
+    margin-left: 1cm;
+}
+input[type=search]{
+    border-radius: 1cm;
+    width:300px;
+    background-color: transparent;
+    color: gray;
+    height: 50px;
+    margin-left: 200px;
+    font-size: 15px;
+    border-color: gray;
+}
+.b2{
+    background-color: red;
+    width:120px;
+    color: white;
+    border-radius: 0.3cm;
+    margin-left: 200px;
+    height: 50px;
+    margin-top: 10px;
+    
+}
+.header{
+    display: flex;
+    margin-top: 30px;
+}
+body{
+    display: flex;
+}
+.b4{
+    background-color: transparent;
+}
+.content{
+    height: 650px;
+    width: auto;
+    background-color: rgb(36, 36, 36);
+    margin-top: 1cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    border-radius: 0.5cm;
+    color: white;
+    
+}
+.cont1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1cm;
+}
+h2{
+    padding-top: 1cm;
+    padding-left: 1cm;
+}
+
+input[type=text]{
+    background-color: transparent;
+    border-color: grey;
+}
+.label{
+    display: flex;
+    justify-content: space-between;
+}
+.s1{
+    margin-left: cm;
+}
+select{
+    background-color: transparent;
+    color: white;
+    width: 450px;
+    height: 1cm;
+    border-radius: 0.5cm;
+    margin-top: 0.5cm;
+  
+}
+.two{
+    height: 5cm;
+    border-radius: 0.5cm;
+}
+.one{
+    height: 1.5cm;
+    border-radius: 0.5cm;
+}

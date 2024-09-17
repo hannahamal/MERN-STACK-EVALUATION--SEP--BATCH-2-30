@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+    margin-left: 1cm;
+}
+figure{
+    color: white;
+   
+    
+}
+.images{
+    display: flex;
+    
+}
+img:hover{
+    height: 200px;
+    width: 300px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1cm;
+    color: white;
+    font-size: 20px;
+
+}
+.p1{
+    color: red;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

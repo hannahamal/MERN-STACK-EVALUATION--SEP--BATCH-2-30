@@ -1,0 +1,80 @@
+body{
+    background-image: url("black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 800px;
+    width: auto
+}
+.header{
+    height:190px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.header1{
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.purchase{
+    margin-top: 60px;
+    padding-right: 60px;
+}
+.p1{
+    border-radius: 1cm;
+    background-color: rgb(212, 212, 212);
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+}
+.footer{
+    height: 40px;
+    width: auto;
+    background-color: rgb(221, 221, 221);
+    color: black;
+    font-size: 20px;
+    margin-top: 120px;
+    
+}
+.content{
+
+    margin-left:60px ;
+    margin-top: 10px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ 
+}
+.p2{
+    border-radius: 1cm;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    background-color: rgb(211, 211, 211);
+}
+.p3{
+    border-radius: 1cm;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    
+}
+.buttons{
+    margin-left: 60px;
+}
+.p4{
+    border-radius: 1cm;
+    width: 170px;
+    height: 40px;
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    margin-left: 60px;
+    margin-top: 60px;
+}

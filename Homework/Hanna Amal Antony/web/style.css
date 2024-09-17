@@ -1,0 +1,100 @@
+.body{
+  
+    height:600px;
+    color: white;
+    width: 1000px;
+    
+}
+.header{
+    background-color: blue;
+    display: flex;
+    justify-content:space-between;
+   align-items: center;
+   padding-left: 2cm;
+   padding-right: 1cm;
+   color: wh;
+    
+}
+.home{
+    display: flex;
+    padding-right: 0.5cm;
+    font-size: larger;
+    word-spacing: 0.5cm;
+   
+    
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin-left: 0.5cm;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-size: cover;
+   width:1000px;
+   height: 600px;
+   color: aliceblue;
+   background-image: url("Office-Violet.jpg");
+   opacity: 0.8;
+   background-position: top left;
+   animation: mymove 5s infinite;
+   
+}
+@keyframes mymove {
+    50% {background-position: center;}
+  }
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+button{
+   
+    color: white;
+    margin-right: 1cm;
+    border-radius: 0.7cm;
+    
+    height: 40px;
+    width: 150px;
+    border: 1.5px solid white;
+   background-color: transparent;
+   font-size: 20px;
+   
+}
+    
+
+button:hover{
+    width: 130px;
+    height: 40px;
+    border: 1.5px solid white;
+}
+h1{
+    font-size:50px;
+}
+.bootstrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.search-icon {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: blue;
+    margin-left: 0.5cm;
+}
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+.header{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    ;
+}
+.menu{
+    height: 50px;
+    width: 500px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu:hover{
+    background-color: coral;
+}
+.first{
+    display: flex;
+}
+.second{
+    height: 300px;
+    width: 700px;
+    background-color: blue;
+}
+.main{
+    height: 150px;
+    width: 350px;
+    background-color: darkslateblue;
+    margin-right:150px;
+}
+.image{
+    height:75px;
+    width: 200px;
+    background-color: aquamarine;
+    color: black;
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.Vs_2eCJxL07L2s1i5wy7vgHaFj&pid=Api&P=0&h=180");
+}
+.extra{
+    height: 75px;
+    width: 200px;
+    background-color: darkcyan;
+    color: black;
+}
+.third{
+    display: flex;
+
+}
+.banner{
+    height:100px;
+    width:700px;
+    background-color: darkgoldenrod;
+    color: black;
+}
+.body{
+    color: aliceblue;
+   
+}
+p:hover{
+    display: block;
+    background-color: darkgreen;
+    width:75px;
+    height: 25px;
+    font-size: larger;
+}

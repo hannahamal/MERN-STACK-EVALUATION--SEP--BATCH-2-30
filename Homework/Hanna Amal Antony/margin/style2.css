@@ -1,0 +1,74 @@
+body{
+    background-image: url("black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.header{
+    display: flex;
+}
+.text{
+    margin-left: 40px;
+}
+.purchase{
+    margin-left:1200px ;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+.p1{
+    border-radius: 1cm;
+    background-color: rgb(255, 219, 225);
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+}
+.content{
+
+    margin-left:40px ;
+    margin-top: 10px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ 
+}
+.buttons{
+    margin-left: 40px;
+}
+.p2{
+    border-radius: 1cm;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    background-color: bisque;
+}
+.p3{
+    border-radius: 1cm;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    
+}
+.footer{
+    background-color: rgb(255, 189, 200);
+    width: auto;
+    height: 50px;
+    margin-top: 200px;
+    
+    color: black;
+    
+}
+.p4{
+    border-radius: 1cm;
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+    background-color: transparent;
+    color: white;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+h2{
+    font-size: 30px;
+}

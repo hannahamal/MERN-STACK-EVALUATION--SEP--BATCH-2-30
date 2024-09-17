@@ -1,0 +1,18 @@
+.header{
+    height: 100px;
+    width: 500px;
+    background-color: antiquewhite;
+    margin-bottom: 0.2cm;
+}
+.center{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(236, 179, 105);
+}
+.footer{
+    height: 100px;
+    width: 500px;
+    background-color: antiquewhite;
+    margin-top: 0.2cm;
+    
+}

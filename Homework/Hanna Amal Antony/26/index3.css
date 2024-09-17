@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(43, 43, 43);
+}
+.header{
+    background-color: white;
+    height: 100px;
+    width: auto;
+    display: flex;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1.1cm;
+    margin-top: 1cm;
+    /* justify-content: space-evenly; */
+    margin-left: 2cm;
+    font-size: 20px;
+}
+.head1{
+    display: flex;
+    margin-left: 1cm;
+}
+.two{
+    color: gray;
+}
+button{
+    background-color: rgb(12, 12, 34);
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 0.3cm;
+}
+.content{
+    height: 400px;
+    width: auto;
+
+}
+.footer{
+    color: white;
+   
+
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 50px;
+}
+.greet{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+}

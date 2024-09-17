@@ -1,0 +1,299 @@
+.header{
+    height: 50px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-right: 1cm;
+    align-items: center;
+}
+.body{
+    width: auto;
+    background-color: black;
+    height: 800px;
+}
+.head1{
+   color: rgb(63, 63, 63);
+    word-spacing: 0.3cm;
+    margin-left: 30px;
+    font-size: 13px;
+    display: flex;
+    gap: 0.3cm;
+}
+/* .head3{
+    display: flex;
+    
+} */
+ i{
+    color: gray;
+    margin-left: 0.3cm;
+    
+ }
+.p10{
+    font-size: 15px;
+}
+.i{
+    padding-top: 0.6cm;
+}
+.content{
+    width: auto;
+    height: 650px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cont1{
+    height: 650px;
+    width: 460px;
+    background-color: rgb(31, 31, 31);
+    padding-left: 0.8cm;
+    margin-right: 0.2cm;
+    
+}
+.header1{
+    color: white;
+    padding-left: 30px;
+}
+.b2{
+    background-color: rgb(59, 59, 59);
+    border-radius: 0.5cm;
+    height: 0.7cm;
+    color: white;
+}
+.b1{
+    background-color: rgb(59, 59, 59);
+    border-radius: 0.5cm;
+    height: 0.7cm;
+    color: white;
+}
+.header3{
+    color: rgb(119, 118, 118);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.2cm;
+    padding-right: 1cm;
+}
+.sear{
+    padding-top: 0.2cm;
+}
+.header4{
+    color: white;
+    padding-top: 0.03cm;
+    padding-bottom:0.03cm;
+}
+.img1{
+    display: flex;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.text{
+    padding-left: 0.3cm;
+    line-height: 0.1cm;
+
+}
+.p2{
+    padding-top: 0cm;
+    color: gray;
+}
+.cont2{
+    height: 612px;
+    width: 670px;
+    background-color: rgb(18, 20, 18);
+    padding: 0.5cm;
+    margin-right: 0.2cm;
+    
+}
+.div2{
+    background-color: rgb(25, 31, 25);
+    border-radius: 0.2cm;
+    padding-left: 0.5cm;
+    
+}
+.div1{
+    display: flex;
+    color: white;
+    
+}
+.p3{
+    color: white;
+    margin-left: 8cm;
+
+}
+.p4{
+    font-size: 40px;
+    line-height: 0.5cm;
+}
+.p5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.b5{
+    background-color: black;
+    color: white;
+    margin-left: 14cm;
+    border-radius: 0.2cm;
+    height: 0.7cm;
+}
+.b3{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1cm;
+    width: 2cm;
+    height: 1cm;
+}
+.b4{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1cm;
+    width: 2cm;
+    height: 1cm;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    height: 5cm;
+    width: 5cm;
+    
+}
+.text1{
+    padding-left: 0.3cm;
+    line-height: 0.1cm;
+    
+}
+.div4{
+    display: flex;
+}
+.header5{
+    width: 8.5cm;
+    background-color: rgb(31, 37, 32);
+    height: 1.5cm;
+    color: white;
+    margin: 0.1cm;
+}
+.b6{
+    background-color: white;
+    color: black;
+    border-radius: 1cm;
+}
+.b7{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    border-radius: 1cm;
+}
+.div3{
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+.cont3{
+    height: 650px;
+    width: 460px;
+    background-color: rgb(31, 31, 31);
+
+}
+.h1{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    padding-left: 0.5cm;
+    padding-top: 0.5cm;
+    color: white;
+}
+.p7{
+    color: gray;
+    font-size: 30px;
+    margin-right: 0.5cm;
+    margin-top: 0.2cm;
+}
+.img2{
+    width: 400px;
+    height: 350px;
+    margin-left: 0.5cm;
+}
+.p9{
+    color: gray;
+    margin-right: 0.7cm;
+    margin-top: 0.5cm;
+}
+.text2{
+    display: flex;
+    margin-right: 0.5cm;
+}
+input{
+    background-color: rgb(49, 49, 49);
+    border-radius: 1cm;
+    width: 300px;
+    height: 30px;
+}
+
+.b1{
+    background-color: white;
+    color: black;
+    border-radius: 1cm;
+    height: 30px;
+}
+.h2{
+    display: flex;
+    justify-content: space-between;
+}
+.h7{
+    color: white;
+    margin-top: 0.8cm;
+    margin-right: 0.7cm;
+
+}
+.p8{
+    color: white;
+    font-size: 20px;
+}
+.h3{
+    line-height: 0.1cm;
+    margin-left: 0.5cm;
+}
+p{
+    color: white;
+}
+.h4{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.2cm;
+    margin-right: 0.5cm;
+}
+.h5{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.2cm;
+    margin-right: 0.5cm;
+}
+.b8{
+    border-radius: 0.5cm;
+    height: 0.8cm;
+    width: 2cm;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    margin-top: 0.5cm;
+    
+}
+.h8{
+    background-color: rgb(36, 36, 36);
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    border-radius: 0.3cm;
+    margin-top: 0.5cm;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5cm;
+    margin-left: 0.8cm;
+}

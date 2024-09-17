@@ -1,0 +1,51 @@
+.header{
+    height: 50px;
+    width: 385px;
+    background-color: rgb(236, 139, 13);
+}
+.body{
+    color: white;
+}
+.footer{
+    height: 50px;
+    width: 515px;
+    background-color: rgb(236, 139, 13);
+    margin-top: 5px;
+}
+.small1{
+    height: 100px;
+    width:125px;
+    background-color: chocolate;
+    margin-right: 5px;
+}
+.small2{
+    height: 100px;
+    width:125px;
+    background-color: chocolate;
+    margin-right: 5px;
+}
+.small3{
+    height: 100px;
+    width:125px;
+    background-color: chocolate;
+    margin-right: 5px;
+}
+.small{
+    display: flex;
+    margin-top: 5px;
+}
+.content{
+    height: 250px;
+    width: 385px;
+    background-color: chocolate;
+    margin-top: 5px;
+}
+.side{
+    height:355px;
+    width: 125px;
+    background-color: darkorange;
+    margin-top: 5px;
+}
+.main{
+    display: flex;
+}

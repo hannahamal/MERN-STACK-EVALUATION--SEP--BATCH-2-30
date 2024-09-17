@@ -1,0 +1,276 @@
+.div1{
+    background-image:url("image1.jpg");
+    height: 500px;
+    width: auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+   margin-left: 1cm;
+   
+}
+.head1{
+    display: flex;
+}
+.head2{
+    display: flex;
+    gap:1cm;
+    
+    margin-right: 1cm;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1cm;
+    color: white;
+    font-size: 20px;
+
+}
+
+.p1{
+    color: red;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content{
+    color: white;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+button{
+    background-color: rgb(49, 49, 49);
+    color: white;
+    height: 30px;
+    width: fit-content;
+    
+}
+p{
+    font-size: 20px;
+}
+.div2{
+    height: 350px;
+    width: auto;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    padding-left: 1cm;
+    
+    
+}
+.heading{
+    margin-left: 1cm;
+    font-size: 20px;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+
+}
+img{
+    height: 200px;
+    width: 215px;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+   height: 200px;
+   width: auto;
+}
+.img{
+    animation: move 5s alternate-reverse infinite;
+    
+}
+@keyframes move{
+    0%{
+        transform: translate(0px,0px);
+    }
+    16.6%{
+        transform: translateX(230px);
+    }
+    33.2%{
+        transform: translateX(460px);
+    }
+    49.2%{
+        transform: translateX(690px);
+    }
+    66.4%{
+        transform: translateX(920px);
+    }
+    83%{
+        transform: translateX(1150px);
+    }
+    100%{
+        transform: translateX(1370px);
+    }
+   
+}
+.img2{
+    animation: img2 5s alternate-reverse infinite;
+    
+}
+@keyframes img2{
+    0%{
+        transform: translate(0px,0px);
+    }
+    16.6%{
+        transform: translateX(230px);
+    }
+    33.2%{
+        transform: translateX(460px);
+    }
+    49.2%{
+        transform: translateX(690px);
+    }
+    66.4%{
+        transform: translateX(920px);
+    }
+    83%{
+        transform: translateX(1150px);
+    }
+    100%{
+        transform: translateX(1370px);
+    }
+    
+}
+.img3{
+    animation: img3 5s alternate-reverse infinite;
+    
+}
+@keyframes img3{
+    0%{
+        transform: translate(0px,0px);
+    }
+    16.6%{
+        transform: translateX(230px);
+    }
+    33.2%{
+        transform: translateX(460px);
+    }
+    49.2%{
+        transform: translateX(690px);
+    }
+    66.4%{
+        transform: translateX(920px);
+    }
+    83%{
+        transform: translateX(1150px);
+    }
+    100%{
+        transform: translateX(1370px);
+    }
+    
+}
+.img4{
+    animation: img4 5s alternate-reverse infinite;
+    
+}
+@keyframes img4{
+    0%{
+        transform: translate(0px,0px);
+    }
+    16.6%{
+        transform: translateX(230px);
+    }
+    33.2%{
+        transform: translateX(460px);
+    }
+    49.2%{
+        transform: translateX(690px);
+    }
+    66.4%{
+        transform: translateX(920px);
+    }
+    83%{
+        transform: translateX(1150px);
+    }
+    100%{
+        transform: translateX(1370px);
+    }
+    
+}
+.img5{
+    animation: img5 5s alternate-reverse infinite;
+    
+}
+@keyframes img5{
+    0%{
+        transform: translate(0px,0px);
+    }
+    16.6%{
+        transform: translateX(230px);
+    }
+    33.2%{
+        transform: translateX(460px);
+    }
+    49.2%{
+        transform: translateX(690px);
+    }
+    66.4%{
+        transform: translateX(920px);
+    }
+    83%{
+        transform: translateX(1150px);
+    }
+    100%{
+        transform: translateX(1370px);
+    }
+    
+}
+.img6{
+    animation: img6 5s alternate-reverse infinite;
+    
+}
+@keyframes img6{
+    0%{
+        transform: translate(0px,0px);
+    }
+    16.6%{
+        transform: translateX(230px);
+    }
+    33.2%{
+        transform: translateX(460px);
+    }
+    49.2%{
+        transform: translateX(690px);
+    }
+    66.4%{
+        transform: translateX(920px);
+    }
+    83%{
+        transform: translateX(1150px);
+    }
+    100%{
+        transform: translateX(1370px);
+    }
+    
+}
+.img7{
+    animation: img7 5s alternate-reverse infinite;
+    
+}
+@keyframes img7{
+    0%{
+        transform: translate(0px,0px);
+    }
+    16.6%{
+        transform: translateX(230px);
+    }
+    33.2%{
+        transform: translateX(460px);
+    }
+    49.2%{
+        transform: translateX(690px);
+    }
+    66.4%{
+        transform: translateX(920px);
+    }
+    83%{
+        transform: translateX(1150px);
+    }
+    100%{
+        transform: translateX(1370px);
+    }
+    
+}
