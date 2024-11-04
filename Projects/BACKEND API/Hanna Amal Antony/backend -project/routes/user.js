@@ -196,58 +196,67 @@ router.get('/getcart', async (req, res) => {
 
   const token = req.body.token;
 
-  try {
-
+  // try {
     const verified = jwt.verify(token, jwtSecretKey);
     const userId = verified.id;
 
-    // Find the user
-    const user = await user1.findOne({ userId })
-    const response = {}
-    if (user) {
+    console.log("Decoded User ID:", userId); // Log userId for debugging
+
+    // Find the user by the correct identifier
+    const user = await user1.findOne({ _id:userId });
+    console.log("User found:", user); // Log user for debugging
+
+    if (!user) {
+      return res.status(404).json({
+        status: "error",
+        message: "User not found"
+      });
+    }
+    const response={}
+    if(user) {
       const cartItems = await user1.aggregate([
         {
-          $match: { _id: user._id }
+          $match: {_id:user._id}
         },
         {
-          $lookup: {
-            from: 'product1',
-            let: { cart: user.cart },
-            pipeline: [
+          $lookup:{
+            from:'product1',
+            let: {cart:user.cart},    
+            pipeline:[
               {
-                $match: {
-                  $expr: {
-                    $in: ["$_id", {
-                      $map: {
-                        input: "$$cart",
-                        as: "cartId",
-                        in: { $toObjectId: "$$cartId" }
-                      }
+                $match:{
+                  $expr:{
+                    $in:["$_id",{
+                      $map:{
+                        input:"$$cart",
+                        as:"cartId",
+                        in:{$toObjectId:"$$cartId"}
+                         }
                     }]
                   }
                 }
               }
             ],
-            as: 'productDetails'
+            as:'productDetails'
           }
         }
-      ])
-      console.log(cartItems);
-      response.status = 200
-      response.ok = true
-      response.message = "Cart fetched succesfully"
-      res.json({
-        res: cartItems
-      })
+     ])
+    console.log(cartItems);
+    response.status=200
+    response.ok=true
+    response.message="Cart fetched succesfully"
+    res.json({
+      res:cartItems
+    })
+    
+  // } catch (error) {
+  //   console.error("Error:", error); // Log error for debugging
+  //   return res.status(400).json({
+  //     status: "error",
+  //     message: error.message === 'jwt malformed' ? 'Invalid token' : 'An error occurred'
+  //   });
+  // }
     }
-  
-  }
-  catch (error) {
-  return res.json({
-    status: "error",
-    message: error.message === 'jwt malformed' ? 'Invalid token' : 'An error occurred'
-  })
-}
   })
 
 
