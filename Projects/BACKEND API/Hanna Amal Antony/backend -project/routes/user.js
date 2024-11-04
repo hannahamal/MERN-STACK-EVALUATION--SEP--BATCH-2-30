@@ -100,17 +100,49 @@ router.post('/add_cart', async (req, res) => {
 
 
 
-router.post('/removefromcart', async (req, res) => {
-  const jwtSecretKey ='process.env.MY_SECRET';
-// console.log(jwtSecretKey)
-  const token = req.body.token;
-// console.log(token)
+// router.post('/removefromcart', async (req, res) => {
+//   const jwtSecretKey ='process.env.MY_SECRET';
+// // console.log(jwtSecretKey)
+//   const token = req.body.token;
+// // console.log(token)
   
+//     const verified = jwt.verify(token, jwtSecretKey);
+//     const userId = verified.id;
+//     // console.log(userId)
+
+//     const user = await user1.findById(userId)
+//     if (!user) {
+//       return res.json({
+//         status: "error",
+//         message: "User not found"
+//       });
+//     }
+
+//     const deleteUser = await user1.cart.findByIdAndDelete(req.body.id);
+
+//     if (!deleteUser) {
+//       return res.json({
+//         status: "error",
+//         message: "Product not found in cart"
+//       });
+//     }
+
+//     return res.json({
+//       status: "success",
+//       message: "Product successfully deleted"
+//     });
+  
+  
+// });
+router.post('/removefromcart', async (req, res) => {
+  const jwtSecretKey = 'process.env.MY_SECRET'; // Use the environment variable correctly
+  const token = req.body.token;
+
+  try {
     const verified = jwt.verify(token, jwtSecretKey);
     const userId = verified.id;
-    // console.log(userId)
 
-    const user = await user1.findById(userId)
+    const user = await user1.findById(userId).populate('cart'); // Populate cart if it's a reference
     if (!user) {
       return res.json({
         status: "error",
@@ -118,22 +150,47 @@ router.post('/removefromcart', async (req, res) => {
       });
     }
 
-    const deleteUser = await user1.cart.findByIdAndDelete(req.body.id);
+    const productId = req.body.id; // Get the product ID from the request body
+// console.log(productId)
+    // Log user cart for debugging
+    // console.log("User cart:", user.cart);
 
-    if (!deleteUser) {
+    // Check if productId is valid
+    if (!productId) {
       return res.json({
         status: "error",
-        message: "Product not found in cart"
+        message: "Product ID is required"
       });
     }
+
+    const productIndex = user.cart.findIndex(product => {
+      // Ensure product._id is defined before calling toString()
+      return product._id && product._id.toString() === productId;
+    });
+
+    // if (productIndex === -1) {
+    //   return res.json({
+    //     status: "error",
+    //     message: "Product not found in cart"
+    //   });
+    // }
+
+    user.cart.splice(productIndex, 1); // Remove the product from the cart
+    await user.save(); // Save the updated user cart
 
     return res.json({
       status: "success",
       message: "Product successfully deleted"
     });
-  
-  
+  } catch (error) {
+    return res.json({
+      status: "error",
+      message: error.message
+    });
+  }
 });
+
+
 router.get('/getcart', async (req, res) => {
   const jwtSecretKey = 'process.env.MY_SECRET';
 
